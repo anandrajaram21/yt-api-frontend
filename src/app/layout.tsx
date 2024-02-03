@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  Title: "YT API Frontend",
-  Description: "YT API Frontend",
+  title: "YT API Frontend",
+  description: "YT API Frontend",
 };
 
 export default function RootLayout({
