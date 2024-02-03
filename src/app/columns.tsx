@@ -15,7 +15,7 @@ export const columns: ColumnDef<Video>[] = [
     header: "Thumbnail",
     accessorKey: "ThumbnailURL",
     cell: ({ row }) => {
-      const imgUrl = row.getValue("ThumbnailURL");
+      const imgUrl = row.getValue("ThumbnailURL") as string;
       return (
         <div>
           <img src={imgUrl}></img>
