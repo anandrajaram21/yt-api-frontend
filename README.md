@@ -17,3 +17,7 @@ bun dev
 ## Notes
 
 The server side pagination logic has not been implemented yet. For now, it only uses client side pagination.
+
+## Deployed Link
+
+[https://yt-api-frontend.vercel.app/](https://yt-api-frontend.vercel.app/)
